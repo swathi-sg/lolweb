@@ -1,37 +1,18 @@
 body {
     margin: 0;
-    padding: 0;
-    background-color: #ffffff; /* White background color */
-    font-family: 'Inconsolata', monospace; /* Use Inconsolata font */
+    font-family: 'Inconsolata', monospace;
+    background-color: #ffffff; /* Set your desired background color */
+    color: #000000; /* Set black as the font color */
+}
+
+.center-text {
     display: flex;
-    align-items: center;
     justify-content: center;
-    min-height: 100vh; /* Make the content center vertically on the page */
+    align-items: center;
+    height: 100vh;
 }
 
-.content {
-    text-align: center;
-    max-width: 80%; /* Adjust the maximum width of the content */
-    width: 100%; /* Ensure the content takes the full width */
-    padding: 20px; /* Add padding for better spacing */
-    margin: auto; /* Center the content horizontally */
-}
-
-.center {
-  border: 5px solid;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 10px;
-}
-
-h1 {
-    font-size: 2.5rem; /* Increase font size for h1 */
-    color: #333333; /* Change font color for h1 */
-}
-
-p {
-    font-size: 1.25rem; /* Increase font size for paragraphs */
-    color: #666666; /* Change font color for paragraphs */
+.center-text p {
+    font-size: calc(100vw / 20); /* Adjust the factor as needed */
+    margin: 0;
 }
