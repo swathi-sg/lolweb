@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: 'Inconsolata', monospace;
     background-color: #ffffff;
-    color: red; /* Changed font color to red */
+    color: blue; /* Changed font color to red */
 }
 
 .center {
