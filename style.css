@@ -5,7 +5,16 @@ body {
     color: #000000; /* Set black as the font color */
 }
 
-.center-text {
+.center {
+  border: 5px solid;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+
+/* .center-text {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,5 +23,5 @@ body {
 
 .center-text p {
     font-size: calc(100vw / 20); /* Adjust the factor as needed */
-    margin: 0;
-}
+/*     margin: 0; */
+/* } */ */
