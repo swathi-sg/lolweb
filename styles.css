@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    font-family: 'Inconsolata', monospace;
+    background-color: #ffffff;
+    color: red; /* Changed font color to red */
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    font-size: 2em; /* Adjust the font size as needed */
+}
