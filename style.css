@@ -1,13 +1,38 @@
-body {
+/* body {
     margin: 0;
     padding: 0;
     background-color: #ffffff; /* White background color */
-    font-family: Arial, sans-serif; /* Choose your preferred font */
-}
+/*     font-family: Arial, sans-serif; /* Choose your preferred font */ */
+/* } */
 
-.content {
+/* .content {
     max-width: 800px;
     margin: 50px auto;
     padding: 20px;
     text-align: center;
+} */
+ 
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* White background color */
+    font-family: 'Inconsolata', monospace; /* Use Inconsolata font */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Make the content center vertically on the page */
+}
+
+.content {
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px; /* Increase font size */
+    color: #333333; /* Change font color */
+}
+
+p {
+    font-size: 18px; /* Increase font size */
+    color: #666666; /* Change font color */
 }
