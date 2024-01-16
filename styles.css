@@ -2,7 +2,6 @@ body {
     margin: 0;
     font-family: 'Inconsolata', monospace;
     background-color: #ffffff;
-    color: blue; /* Changed font color to red */
 }
 
 .center {
@@ -12,4 +11,5 @@ body {
     transform: translate(-50%, -50%);
     padding: 10px;
     font-size: 2em; /* Adjust the font size as needed */
+    color: blue; /* Changed font color to blue */
 }
