@@ -13,15 +13,3 @@ body {
   transform: translate(-50%, -50%);
   padding: 10px;
 }
-
-/* .center-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-.center-text p {
-    font-size: calc(100vw / 20); /* Adjust the factor as needed */
-/*     margin: 0; */
-/* } */ */
